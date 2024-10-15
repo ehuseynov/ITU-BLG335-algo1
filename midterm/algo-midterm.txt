@@ -1,0 +1,53 @@
+algorithms:
+	insertion sort:(simple sorting algorithm)
+		(best n; worst n^2; average n^2)
+
+	merge sort:(divide and conquer algorithm)
+		(best, worst, average is n*log(n) )
+
+	quick sort:(divide and conquer algorithm)
+		(best n*log(n); worst n^2; average n*log(n))
+
+	counting sort:(non-comparison-based sorting algorithm)
+		(best, worst, average is (n+k) [k = range of input])
+
+	radix sort:(non-comparison-based sorting algorithm)
+		(best, worst, average is (n+k) [k = range of input])
+
+	bucket sort:(non-comparison-based sorting algorithm)
+		(worst n^2; average and best (n+k) [k = number of buckets]; )
+
+
+notations:
+	big o: worst case, equal or smaller
+	big thetha: probably olan
+	big omega: best case, equal or bigger
+	small o:worst case, smaller
+	small omega:best case, bigger
+
+Recurrences solving methods:
+	Substitution: texmin ele ve onu proof ele
+	Iteration of the recurrence: recurrence-ni ac
+	Master theorem: qaydaya uygun ele
+
+Sorting in linear time
+Probabilistic analysis and randomized algorithms
+medians and order statistics
+
+
+
+
+
+state the loop invariant:baslangic
+	initialization: loopun baslangici
+	maintenance: sorting(loop) nece isleyir
+	termination: netice nece duz olur?
+
+
+
+
+
+
+
+
+
